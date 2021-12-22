@@ -1,0 +1,13 @@
+# Comentarios
+
+# Lineas en blanco se ignoran
+tmp/peliculas_marvel.txt
+Thumbs.db   # Todos los archivos con ese nombre se ignoran
+
+tmp/    # La carpeta tmp se ignora independientemente de dónde esté
+
+/tmp    # Sólo ignora la carpeta tmp del directorio raiz del proyecto
+
+/src/**/tmp #ignora tmp dentro de src a cualquier nivel
+
+!/tmp/peliculas_marvel.txt  #signo de admiración para anular
